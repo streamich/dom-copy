@@ -1,6 +1,6 @@
 # Copy to Clipboard
 
-Copy any text to clipboard in a brwoser. Usage:
+Copy any text to clipboard in a browser. Usage:
 
 ```js
 var copy = require('dom-copy');
