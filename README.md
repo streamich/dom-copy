@@ -17,7 +17,8 @@ document.addEventListener('click', function() {
 Features:
 
  - The smallest possible function to copy to clipboard in a browser
- - No flash needed.
+ - No flash.
+ - No frameworks.
  - No dependencies, not even `npm` dependencies.
  - Just 20 lines of code
  - Why? Because even 3Kb gzipped is too much for a simple `copy-to-clipboard` function.

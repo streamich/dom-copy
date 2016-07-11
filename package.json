@@ -1,7 +1,7 @@
 {
   "name": "dom-copy",
   "description": "Copy to Clipboard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "clipboard",
     "js",
