@@ -16,7 +16,8 @@ function copy(text) {
 
     // Exec `copy` command.
     el.value = text;
-    doc.body.appendChild(el);
+    doc.body.insertBefore(el, doc.body.firstChild);
+    // doc.body.appendChild(el);
     el.focus();
     el.setSelectionRange(0, text.length);
     doc.execCommand('copy');
