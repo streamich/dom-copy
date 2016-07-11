@@ -1,0 +1,18 @@
+{
+  "name": "dom-copy",
+  "description": "Copy to Clipboard",
+  "version": "1.0.0",
+  "keywords": [
+    "clipboard",
+    "js",
+    "javascript",
+    "dop",
+    "copy",
+    "copy-to-clipboard",
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/streamich/dom-copy"
+  },
+  "main": "index.js"
+}
