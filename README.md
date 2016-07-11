@@ -33,7 +33,7 @@ Save yourself time and just copy this function straight into your project:
 ```js
 function copy(text) {
     var doc = document;
-    el = doc.createElement('input');
+    var el = doc.createElement('input');
 
     // Remove from screen.
     var style = el.style;

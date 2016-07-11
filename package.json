@@ -1,14 +1,14 @@
 {
   "name": "dom-copy",
   "description": "Copy to Clipboard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "clipboard",
     "js",
     "javascript",
     "dop",
     "copy",
-    "copy-to-clipboard",
+    "copy-to-clipboard"
   ],
   "repository": {
     "type": "git",
