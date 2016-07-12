@@ -1,8 +1,9 @@
 <script>
 
 
-    function copy(text) {
+    function copy(text, parent) {
         var doc = document;
+        parent = parent || doc.body;
         var el = doc.createElement('input');
 
         // Remove from screen.
@@ -18,12 +19,11 @@
 
         // Exec `copy` command.
         el.value = text;
-        doc.body.insertBefore(el, doc.body.firstChild);
-        // doc.body.appendChild(el);
+        parent.appendChild(el);
         el.focus();
         el.setSelectionRange(0, text.length);
         doc.execCommand('copy');
-        doc.body.removeChild(el);
+        parent.removeChild(el);
     }
 
 
